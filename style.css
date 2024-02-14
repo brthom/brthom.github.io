@@ -8,19 +8,22 @@ body{
     background-color: #12372A;
     color: #FBFADA;
     display: flex;
-    justify-content: space-between;
     align-items: center;
     border-radius: 10px;
+    justify-content: space-between;
     line-height: .7; /* Decrease the value to reduce line spacing */
 }
 
 .split.left {
     left: 0;
     margin-left: 2.5%;
+    flex: 1
 }
 
 .split.right {
     right: 0;
+    margin-right: 2.5%;
+    flex: 1
 }
 
 .centered {
@@ -45,6 +48,7 @@ body{
     background-color: #F3F7D4;
     color: #093426;
     border-radius: 10px;
+    justify-content: left;
     margin: 20px;
     display: flex;
 }
