@@ -1,0 +1,55 @@
+/* FILEPATH: /Users/benthomas/Documents/personal_projects/website/style.css */
+/* */
+body{
+    background-color: #ADBC9F;
+}
+
+.header {
+    background-color: #12372A;
+    color: #FBFADA;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 10px;
+    line-height: .7; /* Decrease the value to reduce line spacing */
+}
+
+.split.left {
+    left: 0;
+    margin-left: 2.5%;
+}
+
+.split.right {
+    right: 0;
+}
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #F3F7D4;
+    color: #093426;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.page-content {
+    padding: 20px;
+    background-color: #F3F7D4;
+    color: #093426;
+    border-radius: 10px;
+    margin: 20px;
+    display: flex;
+}
+
+.button img {
+    display: block;
+    margin: 0 auto;
+}
