@@ -1,4 +1,12 @@
 body {
     font-family: Georgia, 'Times New Roman', Times, serif;
-    background-color: #EBF7D4;
+    background-color: #E1F8B5;
+}
+
+.footer-bar{
+    background-color: #315C2B;
+}
+
+.navbar{
+    background-color: #315C2B;
 }
